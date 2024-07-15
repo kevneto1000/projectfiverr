@@ -1,0 +1,156 @@
+@import 'aos/dist/aos.css';
+
+/* :root {
+    --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Amatic SC",  sans-serif;
+    --nav-font: "Inter",  sans-serif;
+} */
+  
+body{
+    background: #d7ffff!important;
+}
+
+/* styling the navbar */
+.loading_img{
+    width: 13rem!important;
+}
+
+.nav-link a:hover{
+    color: #1E88E5 !important;
+}
+
+.logo{
+    width: 140px !important;
+}
+
+
+/* styling the hero/banner */
+.intro h1{
+    font-size: 3rem !important;
+}
+
+.intro p{
+    font-size: 20px !important;
+    color: #808080;
+}
+
+.intro .btn{
+    color: #ffffff !important;
+}
+
+.icon-search{
+    font-size: 40px;
+    color: #ffffff !important;
+    padding: 5px;
+    position: absolute;
+    top: 32%;
+    right: 12%;
+    background: #31D2F2;
+    border-radius: 50%;
+}
+
+.card-body h5, p{
+    text-align: center;
+}
+
+.icon{
+    padding-top: 5px;
+    margin: auto;  
+    font-size: 3rem;
+    color: #31D2F2;
+}
+
+span{
+    color: #1E88E5;
+}
+
+/* styling the category section */
+.card-image{
+    height: 12rem;
+    filter: contrast(1.5) !important; 
+}
+
+.category-btn{
+    margin-left: 30%;
+    margin-top: 45%;
+}
+
+/* footer section */
+a{
+    text-decoration: none !important;
+    color: #000 !important;   
+}
+
+.footer p{
+    color: #808080;
+}
+
+/* 404 */
+.notfound-img{
+    margin-left: 25%;
+}
+
+#homeBtn{
+    margin-left: 43%;
+}
+
+/* profile */
+.profile-card{
+    height: 15rem;
+}
+
+.profile-img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: auto !important;
+}
+
+.profile-title{
+    margin-bottom: 125px !important;
+}
+
+/* post section */
+.card-post{
+    height: 3rem;
+    margin: auto !important;
+}
+
+
+
+@media (max-width:576px) {
+
+    .search{
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    input{
+        font-size: 10px !important;
+    }
+
+    .search{
+        position: relative;
+    }
+
+    .icon-search{
+        position: absolute;
+        top: 68%;
+        right: 5%;
+    }
+
+    .group img{
+        width: 18rem;
+    }
+
+    .notfound-img{
+        width: 19rem;
+        margin: auto;
+    }
+
+    #homeBtn{
+        margin-left: 6rem;
+    }
+
+
+}
